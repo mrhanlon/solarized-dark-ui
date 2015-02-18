@@ -43,6 +43,16 @@
 }
 
 .status-bar {
-    height: 36px;
-    line-height: 36px;
+  height: 36px;
+  line-height: 36px;
+
+  .current-path,
+  .cursor-position,
+  .git-branch {
+    color: @text-color;
+  }
+
+  .buffer-modified {
+    color: @text-color-modified;
+  }
 }
